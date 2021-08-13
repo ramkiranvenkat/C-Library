@@ -1,0 +1,7 @@
+if (start < stop)
+			for j=start:stop
+				d = -(mu2cpy(i) - mu2cpy(i-1))/2;
+				v = Ao(i,i) + d - sign(d)*sqrt(abs(d*d + Ao(i,i-1)*Ao(i,i-1)));
+				mu2cpy(j) = v;
+			end
+		end

@@ -1,0 +1,10 @@
+rm -rf *~
+gcc -c dread.c -lm -g
+gcc -c isnum.c -lm -g
+gcc -c sensq.c -g
+gcc -c storeqacc.c -g -lm
+g++ -c dataAdv.cpp -lm -g
+g++ -c MAT.cpp -lm -g
+g++ -c QUAT.cpp -lm -g
+g++ -c delay.cpp
+g++ -c tf.cpp
